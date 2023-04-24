@@ -4,3 +4,7 @@ export function capitalize(string) {
     return "That string is already capitalized :D";
   return string.charAt(0).toUpperCase() + string.slice(1);
 }
+
+export function reverseString(string) {
+  return string.split("").reverse().join("");
+}
