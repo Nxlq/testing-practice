@@ -11,3 +11,7 @@ test("If the string is already capitalized", () => {
 test('If the string passed in is ""', () => {
   expect(capitalize("")).toBe(undefined);
 });
+
+test('The given string "test" is returned in reverse order "tset"', () => {
+  expect(reverseString("test")).toBe("tset");
+});
