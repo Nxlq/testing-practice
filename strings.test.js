@@ -16,3 +16,23 @@ test('If the string passed in is ""', () => {
 test('The given string "test" is returned in reverse order "tset"', () => {
   expect(reverseString("test")).toBe("tset");
 });
+
+test("reverses a string", () => {
+  expect(reverseString("hello")).toBe("olleh");
+});
+
+test("reverses an empty string", () => {
+  expect(reverseString("")).toBe("");
+});
+
+test("does not modify a one-character string", () => {
+  expect(reverseString("x")).toBe("x");
+});
+
+test("reverses a string with spaces and special characters", () => {
+  expect(reverseString("!dlrow olleH")).toBe("Hello world!");
+});
+
+test("throws an error if input is not a string", () => {
+  expect(() => reverseString(null)).toThrow();
+});
