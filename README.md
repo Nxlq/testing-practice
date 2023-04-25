@@ -1,1 +1,1 @@
-# testing-practice
+The purpose of this repo was to complete practice problems for TOP in order to familiarize myself with testing syntax. Although basic, these problems provide hands on experience with Jest and the flow of tests.
